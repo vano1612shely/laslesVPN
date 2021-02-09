@@ -483,7 +483,6 @@ body {
 .comments_list_item:hover,
 .comments_list_item:focus {
     border-color: #F53838;
-    box-shadow: 0px 15px 30px rgba(0,0,0,0.2);
 }
 
 .comments_list_item_user {
