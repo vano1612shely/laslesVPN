@@ -451,12 +451,12 @@ body {
 .comments_list {
     display: flex;
     list-style: none;
-    margin-bottom: 80px;
     position: relative;
     width: 80%;
     height: 230px;
     overflow-x: hidden;
     margin: 0 auto;
+    margin-bottom: 80px;
 }
 
 .comments_list_item {
