@@ -472,12 +472,24 @@ body {
     text-align: left;
     transition: border box-shadow 0.5s;
     position: absolute;
-    animation: comments_anim 0.5s ease;
 }
 
-@keyframes comments_anim {
-    0% { opacity: 0.5; }
-    100% {opacity: 1;}
+.comments_list_item_anim_left {
+    animation: comments_anim_left 0.5s ease;
+}
+
+.comments_list_item_anim_right {
+    animation: comments_anim_right 0.5s ease;
+}
+
+@keyframes comments_anim_left {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-420px); }
+}
+
+@keyframes comments_anim_right {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(420px); }
 }
 
 .comments_list_item:hover,
